@@ -47,7 +47,7 @@ PlayerSettings:
   defaultScreenHeight: 768
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
-  m_StereoRenderingPath: 1
+  m_StereoRenderingPath: 2
   m_ActiveColorSpace: 1
   unsupportedMSAAFallback: 0
   m_SpriteBatchVertexThreshold: 300
@@ -139,11 +139,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 1.0
   preloadedAssets:
-  - {fileID: 11400000, guid: b9a1242ba1a8254499e9dcc230c559ad, type: 2}
   - {fileID: 11400000, guid: 797613f76a09b5846a898e1c1721f7e0, type: 2}
-  - {fileID: -7802168288622483985, guid: e6fb2bf47dbec0a43a9fe960a1b2ca50, type: 2}
-  - {fileID: 11400000, guid: f4a254c1b6672df4c8a7456322c7cd5d, type: 2}
-  - {fileID: -586717139223778154, guid: 52bed26f612e0e24faff834469e995aa, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -176,7 +172,7 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 24
+  AndroidMinSdkVersion: 29
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0
   aotOptions: 
@@ -273,7 +269,7 @@ PlayerSettings:
   AndroidKeyaliasName: 
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
-  AndroidTVCompatibility: 1
+  AndroidTVCompatibility: 0
   AndroidIsGame: 1
   AndroidEnableTango: 0
   androidEnableBanner: 1
@@ -562,7 +558,7 @@ PlayerSettings:
     m_APIs: 10000000
     m_Automatic: 1
   - m_BuildTarget: AndroidPlayer
-    m_APIs: 0b00000008000000
+    m_APIs: 15000000
     m_Automatic: 1
   m_BuildTargetVRSettings:
   - m_BuildTarget: Windows Store Apps
